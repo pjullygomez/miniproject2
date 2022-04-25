@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  padding: 0;
 }
 
 /* .containerNav {
@@ -108,7 +109,7 @@ div .link:hover {
 }
 
 .para-text {
-  font-size: 80px;
+  font-size: 100px;
   color: white;
 }
 
@@ -238,6 +239,52 @@ h3 {
 
 .socials {
   padding-top: 10px;
+}
+
+/* Reviews Section */
+
+.reviews {
+  /* background-color: #18d26e; */
+  height: 70vh;
+  width: 99vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.reviewsbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.reviewItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: lightcoral; */
+  width: 20vw;
+  border: 3px solid #0b4619;
+  padding: 20px;
+  height: 400px;
+}
+.reviewImage1 {
+  width: 30px;
+}
+
+.reviewImage2 {
+  width: 90px;
+  border-radius: 1000px;
+  border: 2px solid #0b4619;
+}
+
+.reviews h1 {
+  color: #0b4619;
+  font-size: 60px;
 }
 
 /* contact us section */
@@ -506,8 +553,54 @@ label {
     display: none;
   }
 }
+/* for reviews section */
+@media screen and (max-width: 1600px) and (min-width: 300px) {
+  .reviews {
+    /* background-color: #18d26e; */
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .reviewsbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
 
-@media screen and (max-width: 800px) and (min-width: 300px) {
+  .reviewItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: lightcoral; */
+    width: 70vw;
+    border: 3px solid #0b4619;
+    padding: 20px;
+    height: 350px;
+  }
+  .reviewImage1 {
+    width: 30px;
+  }
+
+  .reviewImage2 {
+    width: 60px;
+    border-radius: 1000px;
+    border: 2px solid #0b4619;
+  }
+  .reviews h1 {
+    color: #0b4619;
+    font-size: 40px;
+  }
+}
+/* section1 about us */
+
+@media screen and (max-width: 1600px) and (min-width: 300px) {
   .bgImage {
     /* background-color: aqua; */
 
@@ -539,8 +632,8 @@ label {
     justify-content: center;
     text-decoration: none;
     background-color: #ffcc1d;
-    width: 180px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
     border-radius: 50px;
     font-size: 18px;
     color: black;
@@ -560,8 +653,11 @@ label {
   }
 
   .para-text {
-    font-size: 80px;
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
     color: white;
+    width: 100vw;
   }
 
   .textIT {
@@ -569,8 +665,8 @@ label {
   }
   .h2text {
     text-align: center;
-    font-size: 40px;
-    width: 700px;
+    font-size: 25px;
+    width: 350px;
   }
   h2 {
     color: white;
@@ -580,7 +676,7 @@ label {
   }
   .jkxtext {
     color: black;
-    font-size: 60px;
+    font-size: 30px;
   }
 
   h3 {
