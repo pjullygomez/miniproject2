@@ -26,10 +26,14 @@ h2{
 
 .wrapper{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-content:center;
     align-items: center;
     gap: 2rem;
-    height: 100vh;
+    height: 170vh;
+    width:95%;
+    margin: 0 auto;
 }
 
 img{
