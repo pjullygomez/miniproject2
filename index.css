@@ -9,7 +9,7 @@
 
 .container {
   /* background-color: #e9efc0; */
-  box-shadow: 1px 1px 3px 4px rgb(202, 200, 200);
+  /* box-shadow: 1px 1px 3px 4px rgb(202, 200, 200); */
   width: 100vw;
   height: 15vh;
   display: flex;
