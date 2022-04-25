@@ -7,41 +7,50 @@
   font-family: "Poppins", sans-serif;
 }
 
-.container {
-  /* background-color: #e9efc0; */
-  /* box-shadow: 1px 1px 3px 4px rgb(202, 200, 200); */
+/* .containerNav {
   width: 100vw;
   height: 15vh;
   display: flex;
   justify-content: center;
-}
-
+} */
+/* .logo {
+  padding-left: 500px;
+} */
 .logo img {
-  width: 170px;
+  width: 130px;
 }
 
-.linksContainer {
-  /* background-color: bisque; */
+/* .linksContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 80px;
   width: 40vw;
-}
+} */
 
-.links {
+/* .links {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: aquamarine; */
+
   width: 110px;
   font-size: 18px;
   height: 50px;
+} */
+
+.navbar-collapse {
+  gap: 60px;
 }
 
-.link {
+div .link {
   text-decoration: none;
   color: black;
+  font-size: 20px;
+}
+div .link:hover {
+  color: #18d26e;
+  box-sizing: border-box;
+  border-bottom: solid 2px #18d26e;
 }
 
 /* section 1 part
@@ -495,5 +504,86 @@ label {
 
   .phone {
     display: none;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 300px) {
+  .bgImage {
+    /* background-color: aqua; */
+
+    margin-top: 5px;
+    width: 100%;
+    height: 85vh;
+    background-image: url("images/cssp.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset -19px 15px 110px 17px #4e944f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .textBg {
+    /* background-color: aquamarine; */
+    width: 70vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #ffcc1d;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 18px;
+    color: black;
+  }
+  .buttons {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  .buttons a:first-child {
+    background-color: white;
+    border: 1px solid black;
+    border-color: #ffcc1d;
+    color: black;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+  }
+
+  .para-text {
+    font-size: 80px;
+    color: white;
+  }
+
+  .textIT {
+    color: black;
+  }
+  .h2text {
+    text-align: center;
+    font-size: 40px;
+    width: 700px;
+  }
+  h2 {
+    color: white;
+  }
+  .spantext {
+    color: #ffcc1d;
+  }
+  .jkxtext {
+    color: black;
+    font-size: 60px;
+  }
+
+  h3 {
+    color: #0b4619;
   }
 }
