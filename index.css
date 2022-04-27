@@ -502,7 +502,7 @@ html{
   align-items: center;
   align-content: center;
   padding: 4rem;
-  gap: 20rem;
+  gap: 20.1rem;
   box-shadow: inset -19px 15px 110px 17px #4e944f;
 }
 
@@ -546,6 +546,7 @@ html{
 .btn-button{
   background-color: #064635;
   color: #ffcc1d;
+  border: none;
 }
 
 .btn-button:hover{
