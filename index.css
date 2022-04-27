@@ -506,11 +506,7 @@ html{
   height: 160vh;
   width:70%;
   margin: 0 auto;
-<<<<<<< HEAD
   margin-top: 6rem;
-=======
-  margin-top: 10rem;
->>>>>>> 4bca31d6c11525349f1e88d268d577f2489d889b
   
 }
 
@@ -606,12 +602,10 @@ html{
   background-color: #064635;
   color: #ffcc1d;
   border: none;
-<<<<<<< HEAD
   width: 10rem;
   padding: 0.3rem;
   border-radius: 1rem;
-=======
->>>>>>> 4bca31d6c11525349f1e88d268d577f2489d889b
+
 }
 
 .btn-button:hover{
@@ -620,10 +614,6 @@ html{
   transition: 1s;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 4bca31d6c11525349f1e88d268d577f2489d889b
 /* Animations */
 
 @-webkit-keyframes animate-loading {
