@@ -210,6 +210,7 @@ h3 {
   text-align: center;
   color: #116530;
   padding-top: 20px;
+  font-size: 1.5rem;
 }
 
 .portLink a:hover {
@@ -460,6 +461,157 @@ h3 {
 
 label {
   color: #0b4619;
+  font-size: 1.5rem;
+}
+
+/* Our Services */
+
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.anchor{
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: #064635;
+  color: #ffcc1d;
+  position: relative;
+  top: 2.3rem;
+}
+
+.anchor:hover{
+  background-color: #ffcc1d;
+  color:#064635;
+  transition: 1s;
+}
+
+.h2-services{
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+  position: relative;
+  top: 8rem;
+  margin: 2rem 0;
+}
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content:center;
+  align-items: center;
+  gap: 2rem;
+  height: 160vh;
+  width:70%;
+  margin: 0 auto;
+  margin-top: 6rem;
+  
+}
+
+
+.card .img-services{
+  width: 250px;
+  height: 190px;
+  position: relative;
+  top: 1.5rem;
+  left: 2.2rem;
+  
+}
+
+.box{
+  border: 1px solid green;
+  width: 30rem;
+  height: 40rem;
+  text-align: center;
+  box-shadow: inset -19px 15px 110px 17px #4e944f;
+}
+
+
+.card-serv{
+  box-sizing: border-box;
+  margin-top: 2rem;
+  width: 100%;
+  height: 22rem;
+  margin: 0 auto;
+  box-shadow: inset -19px 15px 110px 17px #4e944f;
+  border: 0;
+}
+
+.para{
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.para2{
+  font-size: 1.3rem;
+  margin: 0 2rem 0 2rem;
+}
+
+
+/* Footer */
+.wrap-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 4rem;
+  gap: 20.1rem;
+  box-shadow: inset -19px 15px 110px 17px #4e944f;
+}
+
+.ul-footer{
+  font-size: 1rem;
+  list-style: none;
+  text-align: left;
+}
+
+.ul-footer a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.box-footer{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.icon{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+
+
+.h3-footer{
+  text-align: center;
+}
+
+.btn-footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.btn-button{
+  background-color: #064635;
+  color: #ffcc1d;
+  border: none;
+  width: 10rem;
+  padding: 0.3rem;
+  border-radius: 1rem;
+}
+
+.btn-button:hover{
+  color: #064635;
+  background-color:#ffcc1d;
+  transition: 1s;
 }
 
 /* Animations */
@@ -493,6 +645,67 @@ label {
 }
 
 /* responsive */
+
+/* Our Services */
+@media only screen and (max-width: 1350px){
+  .h2-services{
+    position: relative;
+    top: 10rem;
+  }
+
+  .wrapper{
+    position: relative;
+    bottom: 10rem;
+  }
+
+  .section-serv{
+    height: 150vh;
+  }
+
+}
+
+@media only screen and (max-width: 1150px) {
+    .h2-services{
+    position: relative;
+    top: 10rem;
+  }
+
+  .wrapper{
+    position: relative;
+    bottom: 10rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  
+  .h2-services{
+    position: relative;
+    top: 10rem;
+  }
+
+  .wrapper{
+    position: relative;
+    top: -14rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 885px) {
+  .h2-services{
+    position: relative;
+    top: 10rem;
+  }
+
+  .wrapper{
+    position: relative;
+    top: 50rem;
+  }
+
+  .section-serv{
+    height: 260vh;
+  }
+}
 
 /* our team */
 
