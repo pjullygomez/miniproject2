@@ -489,7 +489,6 @@ html{
   transition: 1s;
 }
 
-
 .h2-services{
   color: black;
   font-size: 4rem;
@@ -509,12 +508,9 @@ html{
   height: 160vh;
   width:70%;
   margin: 0 auto;
-  margin-top: 6rem;
+  margin-top: 9rem;
   
 }
-
-
-
 
 .card .img-services{
   width: 250px;
@@ -652,71 +648,6 @@ html{
 /* responsive */
 
 /* Our Services */
-
-
-@media only screen and (max-width: 1350px){
-  .h2-services{
-    position: relative;
-    top: 10rem;
-  }
-
-  .wrapper{
-    position: relative;
-    bottom: 10rem;
-  }
-
-  .section-serv{
-    height: 150vh;
-  }
-
-}
-
-@media only screen and (max-width: 1150px) {
-    .h2-services{
-    position: relative;
-    top: 10rem;
-  }
-
-  .wrapper{
-    position: relative;
-    bottom: 10rem;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  
-  .h2-services{
-    position: relative;
-    top: 10rem;
-  }
-
-  .wrapper{
-    position: relative;
-    top: -13rem;
-    height: 170vh;
-  }
-
-}
-
-
-@media only screen and (max-width: 885px) {
-  .h2-services{
-    position: relative;
-    top: 10rem;
-  }
-
-  .wrapper{
-    position: relative;
-    top: 44rem;
-  }
-
-  .section-serv{
-    height: 260vh;
-  }
-}
-
-/* our team */
-
 @media only screen and (max-width: 1150px) {
   .profiles {
     flex-direction: column;
@@ -776,11 +707,48 @@ html{
     display: none;
   }
 }
+
+
+/* our team */
+
+@media only screen and (max-width: 1350px) {
+.wrapper{
+  height: 200vh;
+  margin-top: 11rem;
+}
+
+}
+
+@media only screen and (max-width: 900px) {
+  .wrapper{
+    height: 400vh;
+  }
+}
+
+/* contact us */
+
+@media only screen and (max-width: 600px) {
+  .contact .info {
+    display: none;
+  }
+
+  .address {
+    display: none;
+  }
+
+  .email {
+    display: none;
+  }
+
+  .phone {
+    display: none;
+  }
+}
 /* for reviews section */
 @media screen and (max-width: 1600px) and (min-width: 300px) {
   .reviews {
     /* background-color: #18d26e; */
-    padding: 38rem;
+    height: 130vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
