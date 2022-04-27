@@ -210,6 +210,7 @@ h3 {
   text-align: center;
   color: #116530;
   padding-top: 20px;
+  font-size: 1.5rem;
 }
 
 .portLink a:hover {
@@ -245,9 +246,10 @@ h3 {
 
 .reviews {
   /* background-color: #18d26e; */
+  margin-top: 20rem;
+  margin-bottom: 29rem;
   height: 70vh;
   width: 99vw;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -487,6 +489,7 @@ html{
   transition: 1s;
 }
 
+
 .h2-services{
   color: black;
   font-size: 4rem;
@@ -509,6 +512,8 @@ html{
   margin-top: 6rem;
   
 }
+
+
 
 
 .card .img-services{
@@ -647,6 +652,8 @@ html{
 /* responsive */
 
 /* Our Services */
+
+
 @media only screen and (max-width: 1350px){
   .h2-services{
     position: relative;
@@ -685,7 +692,8 @@ html{
 
   .wrapper{
     position: relative;
-    top: -14rem;
+    top: -13rem;
+    height: 170vh;
   }
 
 }
@@ -699,7 +707,7 @@ html{
 
   .wrapper{
     position: relative;
-    top: 50rem;
+    top: 44rem;
   }
 
   .section-serv{
@@ -768,12 +776,11 @@ html{
     display: none;
   }
 }
-<<<<<<< HEAD
 /* for reviews section */
 @media screen and (max-width: 1600px) and (min-width: 300px) {
   .reviews {
     /* background-color: #18d26e; */
-    height: 200vh;
+    padding: 38rem;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -899,67 +906,3 @@ html{
     color: #0b4619;
   }
 }
-=======
-
-/* responsive Our Services */
-@media only screen and (max-width: 1350px){
-  .h2-services{
-    position: relative;
-    top: 10rem;
-  }
-
-  .wrapper{
-    position: relative;
-    bottom: 10rem;
-  }
-
-  .section-serv{
-    height: 150vh;
-  }
-
-}
-
-@media only screen and (max-width: 1150px) {
-    .h2-services{
-    position: relative;
-    top: 10rem;
-  }
-
-  .wrapper{
-    position: relative;
-    bottom: 10rem;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  
-  .h2-services{
-    position: relative;
-    top: 10rem;
-  }
-
-  .wrapper{
-    position: relative;
-    top: -14rem;
-  }
-
-}
-
-
-@media only screen and (max-width: 885px) {
-  .h2-services{
-    position: relative;
-    top: 10rem;
-  }
-
-  .wrapper{
-    position: relative;
-    top: 50rem;
-  }
-
-  .section-serv{
-    height: 260vh;
-  }
-}
-
->>>>>>> 4bca31d6c11525349f1e88d268d577f2489d889b
