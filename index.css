@@ -210,7 +210,6 @@ h3 {
   text-align: center;
   color: #116530;
   padding-top: 20px;
-  font-size: 1.5rem;
 }
 
 .portLink a:hover {
@@ -507,7 +506,11 @@ html{
   height: 160vh;
   width:70%;
   margin: 0 auto;
+<<<<<<< HEAD
   margin-top: 6rem;
+=======
+  margin-top: 10rem;
+>>>>>>> 4bca31d6c11525349f1e88d268d577f2489d889b
   
 }
 
@@ -603,9 +606,12 @@ html{
   background-color: #064635;
   color: #ffcc1d;
   border: none;
+<<<<<<< HEAD
   width: 10rem;
   padding: 0.3rem;
   border-radius: 1rem;
+=======
+>>>>>>> 4bca31d6c11525349f1e88d268d577f2489d889b
 }
 
 .btn-button:hover{
@@ -614,6 +620,10 @@ html{
   transition: 1s;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4bca31d6c11525349f1e88d268d577f2489d889b
 /* Animations */
 
 @-webkit-keyframes animate-loading {
@@ -745,6 +755,8 @@ html{
   .profile p {
     margin: 20px 10px 80px 10px;
   }
+
+
 }
 
 /* contact us */
@@ -766,6 +778,7 @@ html{
     display: none;
   }
 }
+<<<<<<< HEAD
 /* for reviews section */
 @media screen and (max-width: 1600px) and (min-width: 300px) {
   .reviews {
@@ -896,3 +909,67 @@ html{
     color: #0b4619;
   }
 }
+=======
+
+/* responsive Our Services */
+@media only screen and (max-width: 1350px){
+  .h2-services{
+    position: relative;
+    top: 10rem;
+  }
+
+  .wrapper{
+    position: relative;
+    bottom: 10rem;
+  }
+
+  .section-serv{
+    height: 150vh;
+  }
+
+}
+
+@media only screen and (max-width: 1150px) {
+    .h2-services{
+    position: relative;
+    top: 10rem;
+  }
+
+  .wrapper{
+    position: relative;
+    bottom: 10rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  
+  .h2-services{
+    position: relative;
+    top: 10rem;
+  }
+
+  .wrapper{
+    position: relative;
+    top: -14rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 885px) {
+  .h2-services{
+    position: relative;
+    top: 10rem;
+  }
+
+  .wrapper{
+    position: relative;
+    top: 50rem;
+  }
+
+  .section-serv{
+    height: 260vh;
+  }
+}
+
+>>>>>>> 4bca31d6c11525349f1e88d268d577f2489d889b
