@@ -468,19 +468,18 @@ label {
 /* Our Services */
 
 html{
-  font-size: 62.5%;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
 .anchor{
   text-decoration: none;
-  font-size: 1.5rem;
-  padding: 0.5rem;
+  font-size: 13px;
+  padding: 5px;
   background-color: #064635;
   color: #ffcc1d;
   position: relative;
-  top: 2.3rem;
+  top: 26px;
 }
 
 .anchor:hover{
@@ -491,11 +490,11 @@ html{
 
 .h2-services{
   color: black;
-  font-size: 4rem;
+  font-size: 2.6rem;
   text-align: center;
   position: relative;
-  top: 8rem;
-  margin: 2rem 0;
+  top: 110px;
+  margin: 20px 0;
 }
 
 .wrapper{
@@ -508,23 +507,23 @@ html{
   height: 160vh;
   width:70%;
   margin: 0 auto;
-  margin-top: 9rem;
+  margin-top: 70px;
   
 }
 
 .card .img-services{
   width: 250px;
-  height: 190px;
+  height: 160px;
   position: relative;
-  top: 1.5rem;
-  left: 2.2rem;
+  top: 15px;
+  left: 18px;
   
 }
 
 .box{
   border: 1px solid green;
-  width: 30rem;
-  height: 40rem;
+  width: 290px;
+  height: 380px;
   text-align: center;
   box-shadow: inset -19px 15px 110px 17px #4e944f;
 }
@@ -534,36 +533,40 @@ html{
   box-sizing: border-box;
   margin-top: 2rem;
   width: 100%;
-  height: 22rem;
+  height: 190px;
   margin: 0 auto;
   box-shadow: inset -19px 15px 110px 17px #4e944f;
   border: 0;
 }
 
 .para{
-  font-size: 2rem;
-  margin-top: 1rem;
+  font-size: 16px;
+  margin-top: 14px;
 }
 
 .para2{
-  font-size: 1.3rem;
-  margin: 0 2rem 0 2rem;
+  font-size: 12px;
+  margin: 0 20px 0 20px;
 }
 
 
 /* Footer */
+.serv-footer{
+  width: 100%;
+}
+
 .wrap-footer{
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding: 4rem;
-  gap: 20.1rem;
+  padding: 10px;
+  gap: 150px;
   box-shadow: inset -19px 15px 110px 17px #4e944f;
 }
 
 .ul-footer{
-  font-size: 1rem;
+  font-size: 10px;
   list-style: none;
   text-align: left;
 }
@@ -571,13 +574,16 @@ html{
 .ul-footer a{
   text-decoration: none;
   color: black;
-  font-size: 1.2rem;
+  font-size: 14px;
 }
 
 .box-footer{
   display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 11px;
 }
 
 .icon{
@@ -588,22 +594,36 @@ html{
   cursor: pointer;
 }
 
+.icon i:hover{
+  background-color: #ffcc1d;
+}
+
+.foot-input{
+font-size: 12px;
+}
+
+.uselinks{
+  margin-top: 15px;
+}
+
 
 .h3-footer{
   text-align: center;
+  font-size: 15px;
 }
 
 .btn-footer{
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 12px;
+  font-size: 10px;
 }
 
 .btn-button{
   background-color: #064635;
   color: #ffcc1d;
   border: none;
-  width: 10rem;
+  width: 100px;
   padding: 0.3rem;
   border-radius: 1rem;
 
@@ -648,6 +668,167 @@ html{
 /* responsive */
 
 /* Our Services */
+/* @media only screen and (min-width: 800px) and (max-width: 1150px) */
+@media only screen and (min-width: 1200px) and (max-width: 1900px){
+.ul-footer a{
+  position: relative;
+  right: 1.8rem;
+}
+
+.box-footer2{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.section-serv{
+  height: 170vh;
+}
+
+.wrap-footer{
+  display: flex;
+  gap: 13rem;
+}
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px){
+  .section-serv{
+    height: 270vh;
+  }
+
+  .wrapper{
+    position: relative;
+    top: 3rem;
+    margin-bottom: 20rem;
+  }
+
+  .ul-footer a{
+    position: relative;
+    right: 1.7rem;
+  }
+
+  .box-footer2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}
+
+
+@media only screen and (min-width: 875px) and (max-width: 900px){
+  .box-footer2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .wrapper{
+    position: relative;
+    bottom: 30rem;
+    margin-bottom: 14rem;
+  }
+
+  .section-serv{
+    height: 270vh;
+  }
+
+  .ul-footer a{
+    position: relative;
+    right: 1.7rem;
+  }
+  
+}
+
+@media only screen and (min-width: 601px) and (max-width: 874px) {
+  .card .img-services{
+    width: 88%;
+    display: block;
+  }
+
+  .wrapper{
+    position: relative;
+    top: 7rem;
+    margin-bottom: 16rem;
+  }
+
+  
+  .box-footer1{
+    width: 150px;
+    position: relative;
+    left: 5rem;
+    
+  }
+
+  .uselinks{
+    width: 100%;
+  }
+
+ .box-footer3{
+   position: relative;
+   right: 5rem;
+ }
+
+ .box-footer2{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ul-footer a{
+  position: relative;
+  right: 1.6rem;
+}
+
+
+
+}
+
+@media only screen and (min-width: 300px) and (max-width:600px){
+.h2-services{
+  position: relative;
+  top: 3rem;
+}
+
+.anchor{
+  position: relative;
+  top: 1.2rem;
+}
+
+.card .img-services{
+  width: 88%;
+  display: block;
+}
+
+  .wrapper{
+    position: relative;
+    top: 3rem;
+    margin-bottom: 10rem;
+  }
+
+  .mposition{
+    position: relative;
+    top: 1rem;
+  }
+
+  .ul-footer li{
+    text-align: center;
+    margin-right: 2rem;
+  }
+  
+  .wrap-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .box-footer2{
+    position: relative;
+    bottom: 1rem;
+   
+  }
+
+}
+
 @media only screen and (max-width: 1150px) {
   .profiles {
     flex-direction: column;
@@ -687,6 +868,8 @@ html{
 
 
 }
+
+
 
 /* contact us */
 
