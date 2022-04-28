@@ -575,15 +575,17 @@ html{
   text-decoration: none;
   color: black;
   font-size: 14px;
+  position: relative;
+  right: 1.8rem;
 }
 
-.box-footer{
+.box-footer2{
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 11px;
+  gap: 5px;
 }
 
 .icon{
@@ -669,7 +671,7 @@ font-size: 12px;
 
 /* Our Services */
 /* @media only screen and (min-width: 800px) and (max-width: 1150px) */
-@media only screen and (min-width: 1200px) and (max-width: 1900px){
+@media only screen and (min-width: 1200px) and (max-width: 1300px){
 .ul-footer a{
   position: relative;
   right: 1.8rem;
@@ -682,13 +684,14 @@ font-size: 12px;
 }
 
 .section-serv{
-  height: 170vh;
+  height: 246vh;
 }
 
 .wrap-footer{
   display: flex;
   gap: 13rem;
 }
+
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1200px){
@@ -931,7 +934,7 @@ font-size: 12px;
 @media screen and (max-width: 1600px) and (min-width: 300px) {
   .reviews {
     /* background-color: #18d26e; */
-    height: 130vh;
+    height: 90vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
