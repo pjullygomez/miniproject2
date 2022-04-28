@@ -94,6 +94,7 @@ div .link:hover {
   font-size: 18px;
   color: black;
 }
+
 .buttons {
   display: flex;
   gap: 50px;
@@ -112,7 +113,10 @@ div .link:hover {
   font-size: 100px;
   color: white;
 }
-
+.buttons a:hover {
+  background-color: #18d26e;
+  color: white;
+}
 .textIT {
   color: black;
 }
@@ -246,10 +250,9 @@ h3 {
 
 .reviews {
   /* background-color: #18d26e; */
-  margin-top: 20rem;
-  margin-bottom: 29rem;
-  height: 70vh;
-  width: 99vw;
+
+  height: 80vh;
+  width: 98vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -467,12 +470,12 @@ label {
 
 /* Our Services */
 
-html{
+html {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
-.anchor{
+.anchor {
   text-decoration: none;
   font-size: 13px;
   padding: 5px;
@@ -482,54 +485,54 @@ html{
   top: 26px;
 }
 
-.anchor:hover{
+.anchor:hover {
   background-color: #ffcc1d;
-  color:#064635;
+  color: #064635;
   transition: 1s;
 }
 
-.h2-services{
+.h2-services {
   color: black;
   font-size: 2.6rem;
   text-align: center;
   position: relative;
   top: 110px;
   margin: 20px 0;
+  color: #0b4619;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-content:center;
+  align-content: center;
   align-items: center;
   gap: 2rem;
-  height: 160vh;
-  width:70%;
+  height: 130vh;
+  width: 70%;
   margin: 0 auto;
+
   margin-top: 70px;
-  
 }
 
-.card .img-services{
+.card .img-services {
   width: 250px;
   height: 160px;
   position: relative;
   top: 15px;
   left: 18px;
-  
 }
 
-.box{
+.box {
   border: 1px solid green;
   width: 290px;
   height: 380px;
+
   text-align: center;
   box-shadow: inset -19px 15px 110px 17px #4e944f;
 }
 
-
-.card-serv{
+.card-serv {
   box-sizing: border-box;
   margin-top: 2rem;
   width: 100%;
@@ -539,45 +542,46 @@ html{
   border: 0;
 }
 
-.para{
+.para {
   font-size: 16px;
   margin-top: 14px;
 }
 
-.para2{
+.para2 {
   font-size: 12px;
   margin: 0 20px 0 20px;
 }
 
-
 /* Footer */
-.serv-footer{
+.serv-footer {
   width: 100%;
+  font-size: 30px;
 }
 
-.wrap-footer{
+.wrap-footer {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
   padding: 10px;
   gap: 150px;
+
   box-shadow: inset -19px 15px 110px 17px #4e944f;
 }
 
-.ul-footer{
+.ul-footer {
   font-size: 10px;
   list-style: none;
   text-align: left;
 }
 
-.ul-footer a{
+.ul-footer a {
   text-decoration: none;
   color: black;
-  font-size: 14px;
+  font-size: 20px;
 }
 
-.box-footer{
+.box-footer {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -586,7 +590,7 @@ html{
   gap: 11px;
 }
 
-.icon{
+.icon {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
@@ -594,44 +598,42 @@ html{
   cursor: pointer;
 }
 
-.icon i:hover{
+.icon i:hover {
   background-color: #ffcc1d;
 }
 
-.foot-input{
-font-size: 12px;
+.foot-input {
+  font-size: 12px;
 }
 
-.uselinks{
+.uselinks {
   margin-top: 15px;
 }
 
-
-.h3-footer{
+.h3-footer {
   text-align: center;
   font-size: 15px;
 }
 
-.btn-footer{
+.btn-footer {
   display: flex;
   justify-content: center;
   margin-top: 12px;
   font-size: 10px;
 }
 
-.btn-button{
+.btn-button {
   background-color: #064635;
   color: #ffcc1d;
   border: none;
   width: 100px;
   padding: 0.3rem;
   border-radius: 1rem;
-
 }
 
-.btn-button:hover{
+.btn-button:hover {
   color: #064635;
-  background-color:#ffcc1d;
+  background-color: #ffcc1d;
   transition: 1s;
 }
 
@@ -669,164 +671,157 @@ font-size: 12px;
 
 /* Our Services */
 /* @media only screen and (min-width: 800px) and (max-width: 1150px) */
-@media only screen and (min-width: 1200px) and (max-width: 1900px){
-.ul-footer a{
-  position: relative;
-  right: 1.8rem;
-}
-
-.box-footer2{
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-}
-
-.section-serv{
-  height: 170vh;
-}
-
-.wrap-footer{
-  display: flex;
-  gap: 13rem;
-}
-}
-
-@media only screen and (min-width: 901px) and (max-width: 1200px){
-  .section-serv{
-    height: 270vh;
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+  .ul-footer a {
+    position: relative;
+    right: 1.8rem;
   }
 
-  .wrapper{
+  .box-footer2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .section-serv {
+    height: 170vh;
+  }
+
+  .wrap-footer {
+    display: flex;
+    gap: 13rem;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .section-serv {
+    height: 290vh;
+  }
+
+  .wrapper {
+    height: 300vh;
     position: relative;
     top: 3rem;
     margin-bottom: 20rem;
   }
 
-  .ul-footer a{
+  .ul-footer a {
     position: relative;
     right: 1.7rem;
   }
 
-  .box-footer2{
+  .box-footer2 {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
   }
 }
 
-
-@media only screen and (min-width: 875px) and (max-width: 900px){
-  .box-footer2{
+@media only screen and (min-width: 875px) and (max-width: 900px) {
+  .box-footer2 {
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
   }
 
-  .wrapper{
+  .wrapper {
     position: relative;
     bottom: 30rem;
     margin-bottom: 14rem;
   }
 
-  .section-serv{
+  .section-serv {
     height: 270vh;
   }
 
-  .ul-footer a{
+  .ul-footer a {
     position: relative;
     right: 1.7rem;
   }
-  
 }
 
 @media only screen and (min-width: 601px) and (max-width: 874px) {
-  .card .img-services{
+  .card .img-services {
     width: 88%;
     display: block;
   }
 
-  .wrapper{
+  .wrapper {
     position: relative;
     top: 7rem;
     margin-bottom: 16rem;
   }
 
-  
-  .box-footer1{
+  .box-footer1 {
     width: 150px;
     position: relative;
     left: 5rem;
-    
   }
 
-  .uselinks{
+  .uselinks {
     width: 100%;
   }
 
- .box-footer3{
-   position: relative;
-   right: 5rem;
- }
-
- .box-footer2{
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.ul-footer a{
-  position: relative;
-  right: 1.6rem;
-}
-
-
-
-}
-
-@media only screen and (min-width: 300px) and (max-width:600px){
-.h2-services{
-  position: relative;
-  top: 3rem;
-}
-
-.anchor{
-  position: relative;
-  top: 1.2rem;
-}
-
-.card .img-services{
-  width: 88%;
-  display: block;
-}
-
-  .wrapper{
+  .box-footer3 {
     position: relative;
+    right: 5rem;
+  }
+
+  .box-footer2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .ul-footer a {
+    position: relative;
+    right: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .h2-services {
+    position: relative;
+    top: 3rem;
+  }
+
+  .anchor {
+    position: relative;
+    top: 1.2rem;
+  }
+
+  .card .img-services {
+    width: 88%;
+    display: block;
+  }
+
+  .wrapper {
+    position: relative;
+    height: 120vh;
     top: 3rem;
     margin-bottom: 10rem;
   }
 
-  .mposition{
+  .mposition {
     position: relative;
     top: 1rem;
   }
 
-  .ul-footer li{
+  .ul-footer li {
     text-align: center;
     margin-right: 2rem;
   }
-  
-  .wrap-footer{
+
+  .wrap-footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
 
-  .box-footer2{
+  .box-footer2 {
     position: relative;
     bottom: 1rem;
-   
   }
-
 }
 
 @media only screen and (max-width: 1150px) {
@@ -849,7 +844,7 @@ font-size: 12px;
 
 @media only screen and (max-width: 900px) {
   .heading {
-    padding:60px;
+    padding: 60px;
     font-size: 60px;
     color: #0b4619;
     text-align: center;
@@ -866,11 +861,7 @@ font-size: 12px;
   .profile p {
     margin: 20px 10px 80px 10px;
   }
-
-
 }
-
-
 
 /* contact us */
 
@@ -892,20 +883,18 @@ font-size: 12px;
   }
 }
 
-
 /* our team */
 
 @media only screen and (max-width: 1350px) {
-.wrapper{
-  height: 200vh;
-  margin-top: 11rem;
-}
-
+  .wrapper {
+    height: 200vh;
+    margin-top: 11rem;
+  }
 }
 
 @media only screen and (max-width: 900px) {
-  .wrapper{
-    height: 400vh;
+  .wrapper {
+    height: 280vh;
   }
 }
 
@@ -932,8 +921,8 @@ font-size: 12px;
 @media screen and (max-width: 1600px) and (min-width: 300px) {
   .reviews {
     /* background-color: #18d26e; */
-    height: 130vh;
-    width: 100vw;
+    height: 200vh;
+    width: 98vw;
     display: flex;
     flex-direction: column;
     align-items: center;

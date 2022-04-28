@@ -1,0 +1,76 @@
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    box-shadow: inset -19px 15px 110px 17px #4e944f;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: #064635;
+    color: #ffcc1d;
+    position: relative;
+    top: 2.3rem;
+}
+
+h2{
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+    position: relative;
+    top: 12rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+    gap: 2rem;
+    height: 170vh;
+    width:95%;
+    margin: 0 auto;
+}
+
+img{
+    width: 250px;
+    height: 190px;
+    position: relative;
+    top: 2rem;
+    right: 7.5rem;
+}
+
+.wrapper .box{
+    border: 1px solid green;
+    width: 30rem;
+    height: 39rem;
+    text-align: center;
+    box-shadow: inset -19px 15px 110px 17px #4e944f;
+}
+
+.card{
+    box-sizing: border-box;
+    margin-top: 2rem;
+    width: 10rem;
+    height: 22rem;
+    margin: 0 auto;
+}
+
+.para{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-size: 1.3rem;
+    margin: 0 2rem 0 2rem;
+}
+
+
+
+
+
