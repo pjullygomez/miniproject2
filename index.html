@@ -41,7 +41,7 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="container-fluid navbar navbar-expand-lg">
+    <nav class="container-fluid  navbar navbar-expand-lg sticky-top" >
       <button
         class="navbar-toggler"
         type="button"
@@ -54,7 +54,7 @@
         <img class="logoimg" src="./images/logo (1).png" />
       </div>
       <div
-        class="collapse navbar-collapse align-items-center justify-content-center m-1"
+        class="collapse navbar-collapse  align-items-center justify-content-center m-1"
         id="navbar1"
       >
         <div>
@@ -523,6 +523,21 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
 
     <!-- particles -->
     <script src="./assets/js/particles.js-master/particles.js"></script>

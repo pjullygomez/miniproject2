@@ -39,8 +39,13 @@
   height: 50px;
 } */
 
+.navbar{
+  background-color: #e8e8cc;
+}
+
 .navbar-collapse {
   gap: 60px;
+  ;
 }
 
 div .link {
@@ -72,6 +77,7 @@ div .link:hover {
   justify-content: center;
   align-items: center;
   position: relative;
+  top: -5px;
 }
 #particles-js {
   width: 100%;
@@ -1060,4 +1066,10 @@ html {
   h3 {
     color: #0b4619;
   }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
