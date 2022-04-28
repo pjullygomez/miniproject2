@@ -112,6 +112,7 @@ div .link:hover {
   display: flex;
   gap: 50px;
   margin-top: 50px;
+  z-index: 6;
 }
 .buttons a:first-child {
   background-color: white;
